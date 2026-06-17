@@ -1,0 +1,16 @@
+package demo;
+
+public class demo4 {
+    public static void main(String[] args) {
+
+        myrunnable mr=new myrunnable();
+        Thread t1=new Thread(mr,"窗口1");
+        Thread t2=new Thread(mr,"窗口2");
+        Thread t3=new Thread(mr,"窗口3");
+
+        t1.start();
+        t2.start();
+        t3.start();
+
+    }
+}

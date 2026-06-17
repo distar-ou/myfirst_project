@@ -1,0 +1,3 @@
+name=张三
+age=23
+gander=男
